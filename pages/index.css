@@ -31,6 +31,7 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*places styles import*/
+@import url(../blocks/places/places.css);
 @import url(../blocks/website/website.css);
 @import url(../blocks/website/__url-heading/website__url-heading.css);
 @import url(../blocks/website/__link/website__link.css);
