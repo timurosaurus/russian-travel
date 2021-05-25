@@ -10,10 +10,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-  }
-  .place__title:first-of-type {
-    max-width: 320px;
-  }
+    width: 330px;
   }
 }
 
@@ -21,5 +18,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
 }
