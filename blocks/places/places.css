@@ -4,12 +4,11 @@
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (max-width: 1024px) {
   .places {
     margin: 0;
-    padding: 92px 42px;
-    display: flex;
-    flex-direction: column;
+    padding: 92px 48px;
   }
 }
 
@@ -17,8 +16,6 @@
   .places {
     margin: 0;
     padding: 88px 24px;
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -26,7 +23,5 @@
   .places {
     margin: 0;
     padding: 64px 0 66px;
-    display: flex;
-    flex-direction: column;
   }
 }

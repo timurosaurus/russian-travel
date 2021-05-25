@@ -1,0 +1,13 @@
+.place__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0 0 26px;
+  text-align: left;
+}
+.place__text:last-of-type {
+  margin-bottom: 0;
+}
