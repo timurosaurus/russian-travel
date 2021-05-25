@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 690px;
+  max-height: 429px;
+  padding: 0 442px 92px 148px;
+  margin: 0;
+}
+
+/*1024*/
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 286px 92px 48px;
+  }
+}
+
+/*768*/
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 24px 88px;
+    max-width: 720px;
+  }
+}
+
+/*320*/
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 16px 64px;
+    max-width: 288px;
+    max-height: 754px;
+  }
+}

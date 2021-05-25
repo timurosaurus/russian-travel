@@ -1,0 +1,21 @@
+.website__link {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.website__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .website__link {
+    padding: 0 16px;
+    margin: 0;
+  }
+}
