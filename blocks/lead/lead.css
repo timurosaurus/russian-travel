@@ -3,17 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin: auto;
-  max-width: 984px;
-  padding-top: 56px;
+  padding: 56px 148px 0;
 }
 
 /*1024*/
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
-    padding-top: 48px;
+    padding: 48px 48px 0;
   }
 }
 
@@ -21,8 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
-    padding-top: 48px;
+    padding: 48px 0 0;
   }
 }
 
@@ -30,7 +26,6 @@
 
 @media screen and (max-width: 320px) {
   .lead {
-    max-width: 320px;
-    padding-top: 48px;
+    padding: 48px 0 0;
   }
 }

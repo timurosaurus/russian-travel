@@ -19,6 +19,13 @@
   }
 }
 
+@media screen and (min-width: 321px) and (max-width: 630px) {
+  .places {
+    margin: 0;
+    padding: 64px 0 66px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     margin: 0;

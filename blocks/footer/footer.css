@@ -2,27 +2,32 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0 auto;
-  padding: 0 0 24px;
-  width: 1184px;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    width: 928px;
-  }
+  margin: 0;
+  padding: 0 48px 24px;
+  /*width: 1184px;*/
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
+    padding: 0 24px 24px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  .footer {
+    /*width: 186px;
+    height: 310px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 118px 24px 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 186px;
-    height: 310px;
+    /*width: 186px;
+    height: 310px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;

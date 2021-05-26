@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 690px;
-  max-height: 429px;
   padding: 0 442px 92px 148px;
   margin: 0;
 }
@@ -31,6 +30,5 @@
   .intro {
     padding: 0 16px 64px;
     max-width: 288px;
-    max-height: 754px;
   }
 }

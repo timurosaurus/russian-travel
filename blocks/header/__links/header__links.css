@@ -1,5 +1,5 @@
 .header__links {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-end;
 }
