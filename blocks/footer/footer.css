@@ -13,10 +13,8 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 640px) {
+@media screen and (min-width: 320px) and (max-width: 640px) {
   .footer {
-    /*width: 186px;
-    height: 310px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,13 +22,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
   .footer {
-    /*width: 186px;
-    height: 310px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 118px 24px 16px;
   }
-}
+}*/

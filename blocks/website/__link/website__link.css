@@ -7,6 +7,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #fff;
+  transition: opacity .3s ease-in-out;
 }
 
 .website__link:hover {
@@ -16,13 +17,11 @@
 @media screen and (min-width: 321px) and (max-width: 630px) {
   .website__link {
     padding: 0;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .website__link {
     padding: 0 16px;
-    margin: 0;
   }
 }
