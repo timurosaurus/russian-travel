@@ -27,6 +27,7 @@
 @import url(../blocks/intro/__list-number/intro__list-number.css);
 /*photo-grid styles import*/
 
+@import url(../blocks/photos/photos.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /*places styles import*/
